@@ -3,6 +3,8 @@ Source-to-source transformation of every switch-case statement to an if-else sta
 * *input:* source code written in C
 * *output:* a C program that has every switch statement converted into if-else statements
 
+![](test.png)
+
 ## Installation guide
 In order to use this tool you must have LLVM and Clang installed on your system. You can do so by following this [tutorial](https://clang.llvm.org/docs/LibASTMatchersTutorial.html) from the LLVM/Clang official website.
 
